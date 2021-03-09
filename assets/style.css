@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+body {font-family: 'Archivo Narrow', sans-serif;}
+
+.site {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.whiskey-image {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.9;
+    background-image: url(../images/whiskey-2.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.whiskeyimage-info {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    border-radius: 12px;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: rgb(224, 154, 48);
+    text-align: center;
+
+}
+.whiskeyimage-info p {
+
+    border-radius: 12px;
+    background-color: black;
+    opacity: 0.8;
+    color: whitesmoke;
+    text-align: auto;
+    border-style: solid;
+    border-color: rgb(224, 154, 48);
+}
+
+.whiskeyimage-info button {
+    color: whitesmoke;
+    background-color: black;
+    border:  rgb(224, 154, 48);
+    opacity: 1;
+    border-style: solid;
+    margin-top: 0.1px;
+    padding: 10px;
+    font-weight: bold;
+	border-radius: 18px;
+    width: 160px;
+    margin-left: 70px;
+    
+}
+
+.bookbutton {   
+    color: whitesmoke;
+    background-color: black;
+    border:  rgb(224, 154, 48);
+    opacity: 1;
+    border-style: solid;
+    padding: 10px;
+    font-weight: bold;
+	border-radius: 18px;
+    width: 300px;
+    margin-left: 180px;
+    margin-bottom: 50px;
+    text-align: center}
+
+#Tours h1 {
+    color: whitesmoke;
+    border:  rgb(224, 154, 48);
+    text-align: center;
+    border-radius: 12px;
+    background-color: black;
+    opacity: 0.7;
+    border-style: solid;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+
+.card {
+    background: black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 0;
+}
+.card h2 { text-align: center;
+font-family: 'Archivo Narrow', sans-serif;
+color: rgb(224, 154, 48);
+animation: glow 2s ease-in-out infinite alternate;}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+    opacity: 0.5;}
+
+.tour-description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#jameson h2 { text-align: center;
+font-family: 'Archivo Narrow', sans-serif;
+color: rgb(224, 154, 48);}
+
+.tour-description p {
+    width: 70%;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+ @keyframes glow {
+    from {
+      text-shadow: 0 0 20px #d35a14;
+    }
+    to {
+      text-shadow: 0 0 30px #9e7d0f, 0 0 10px #a36d09;}
