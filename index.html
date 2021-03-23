@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/style.css">
@@ -16,20 +16,20 @@
             <div class="row">
                 <!--Navbar-->
                 <div class="whiskey-image">
-                      <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
-                        <a class="navbar-brand nav-text" href="#">Irish Whiskey Tour</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand nav-text" href="#" >Irish Whiskey Tours</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavinfo" aria-controls="navbarNavinfo" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link nav-text" href="#home">Home</a>
-                                </li>
-                                <li class="nav-item">
+                        <div class="collapse navbar-collapse" id="navbarNavinfo">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="active nav-item mr-2">
                                     <a class="nav-link nav-text" href="#Tours">Tours</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="active nav-item mr-2">
+                                    <a class="nav-link nav-text" href="#map">See Location of Tours</a>
+                                </li>
+                                <li class="active nav-item mr-2">
                                     <a class="nav-link nav-text" href="#contact">Contact</a>
                                 </li>
                             </ul>
@@ -67,7 +67,7 @@
                           </div>
                     
                           <div>  <a type="button" id="button" href="https://visit.roeandcowhiskey.com/content" target="_blank"> Book this tour here</a> 
-                                <button type="button" id="button-1">See other amenities in the area here </button>
+                                <button onclick="window.location.href='#map'"type="button" id="button-1">See other amenities in Dublin here </button>
                             </div>
                 </div>
                <!--Tour2-->
@@ -86,7 +86,7 @@
                             <div> 
                               
                             <a type="button" id="button" href="https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-midleton" target="_blank"> Book this tour here</a> 
-                                <button type="button" id="button-1">See other amenities in the area here </button>
+                                <button onclick="window.location.href='#map'"type="button" id="button-1">See other amenities in Cork here </button>
                             </div>
                 </div>
                 
@@ -104,7 +104,7 @@
                     </p>
                           </div>
                           <div>    <a type="button" id="button" href="https://dingledistillery.ie/tours/" target="_blank"> Book this tour here</a> 
-                                <button type="button" id="button-1">See other amenities in the area here </button>
+                                <button onclick="window.location.href='#map'"type="button" id="button-1">See other amenities in Kerry here </button>
                 
                 </div>
                     </div>
@@ -148,6 +148,10 @@
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5dEd_4wQARyCTN_FvAt7AgRNufdeMnjY&callback=initMap"></script>
     <script src="assets/map.js"> </script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
                     
