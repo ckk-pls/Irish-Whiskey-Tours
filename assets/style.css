@@ -100,7 +100,7 @@ h4 {color: black;
     margin-bottom: 15px;
     justify-content:center }
 
-#dublin, #Midleton, #Dingle {   
+#dublin, #midleton, #dingle {   
     display: flex;
     margin: auto;
     color: whitesmoke;
@@ -120,11 +120,6 @@ h4 {color: black;
 #button:hover {
     background: #666;
     color: #c1e1e0;}
-
-#button-1:hover {
-    background: #666;
-    color: #c1e1e0;}
-
 
 #Tours h1 {
     color: whitesmoke;
@@ -197,6 +192,11 @@ color: rgb(224, 154, 48);}
     display: flex;
     justify-content: center;
 }
+
+#pick-dingle i, h3 {
+    color: whitesmoke;
+}
+]
 
 }
  @keyframes glow {
