@@ -45,6 +45,18 @@ $(document).ready(function () {
         newLocation(53.34378213052557, -6.285236330749902);
     });
 
+    $("#midleton").click(function () {
+        clearMarkers();
+        window.location.href='#map';
+        newLocation(51.91539420035956, -8.172167221272717);
+    });
+
+    $("#dingle").click(function () {
+        clearMarkers();
+        window.location.href='#map';
+        newLocation(52.14148644138373, -10.264062419318936);
+    });
+
     $("#restaurant").click(function() {
         clearMarkers();
        displayLocationsOfType(["restaurant"]);
@@ -54,7 +66,14 @@ $(document).ready(function () {
         clearMarkers();
         displayLocationsOfType(["cafe"]);
     });
+
+    $("#hotels").click(function () {
+        clearMarkers();
+        displayLocationsOfType(["lodging"]);
+    });
 });
+
+
 
 function displayLocationsOfType(locationTypes){
     var request = {
