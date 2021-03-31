@@ -201,17 +201,9 @@ color: rgb(224, 154, 48);}
     padding-top: 20px;
     color: whitesmoke;
     text-align: center;
+    font-weight: bold ;
 }
 
-#success {
-    display: none;
-    text-align: center;
-}
-
-#failed {
-    display: none;
-    text-align: center;
-}
 
 .form-container {
     display: flex;
@@ -220,9 +212,10 @@ color: rgb(224, 154, 48);}
     background-color: rgb(224, 154, 48);;
 }
 
-.center-form {
-    width: 70%;
+form{
+    width: 600px;
     text-align: center;
+    flex-direction: column;
 }
 
 form input {
@@ -246,6 +239,30 @@ button {
 .center-form button:hover {
     background: #666;
     color: #c1e1e0;}
+
+
+footer {
+	background-color: whitesmoke;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.social-networks{
+	text-align: center;
+}
+
+.social-networks li {
+	display: inline;
+}
+
+.social-networks i {
+	background-color: whitesmoke;
+	font-size: 180%;
+	margin: 1%;
+	padding: 5%;
+	color: rgb(224, 154, 48)
+}
 
 }
  @keyframes glow {
