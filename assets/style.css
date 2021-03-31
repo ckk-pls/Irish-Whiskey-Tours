@@ -196,7 +196,56 @@ color: rgb(224, 154, 48);}
 #pick-dingle i, h3 {
     color: whitesmoke;
 }
-]
+
+.form-container h2 {
+    padding-top: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#success {
+    display: none;
+    text-align: center;
+}
+
+#failed {
+    display: none;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 154, 48);;
+}
+
+.center-form {
+    width: 70%;
+    text-align: center;
+}
+
+form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    color:whitesmoke;
+    background-color: black;
+    border-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.center-form button {
+    width: 300px;
+}
+
+.center-form button:hover {
+    background: #666;
+    color: #c1e1e0;}
 
 }
  @keyframes glow {
