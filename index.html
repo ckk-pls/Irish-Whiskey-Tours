@@ -151,18 +151,27 @@
             <div>
                 <h2>Contact Us</h2>
             </div>
-            <div class="center-form">
+             <form id="contactForm" onsubmit="return sendMail(this);"></form>
+            <div class="center-form"> 
                 <input type="text" name="name" class="form-control" id="fullname" placeholder="Insert your full name" required/>
                 <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Insert your email address" required/>
-                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Enter your query" required></textarea>
+                <textarea rows="5" name="querysummary" class="form-control" id="querysummary" placeholder="Enter your query" required></textarea>
                 <button type="submit" id="form-button">Send to one of the team</button>
                 </form>
             </div>
         </div>
         </section>
-
-            
-             </footer>
+      <footer class="container-fluid">
+            <div class="row">
+                <div class="col-12 social-links">
+                    <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                
     <script>
     </script>
          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
