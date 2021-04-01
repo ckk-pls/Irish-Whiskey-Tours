@@ -212,10 +212,11 @@ color: rgb(224, 154, 48);}
     background-color: rgb(224, 154, 48);;
 }
 
-form{
-    width: 600px;
+.center-form{
+    width: 70%;
     text-align: center;
     flex-direction: column;
+   
 }
 
 form input {
@@ -233,7 +234,8 @@ button {
 }
 
 .center-form button {
-    width: 300px;
+    width: 40%;
+    flex-direction: auto;
 }
 
 .center-form button:hover {
@@ -243,13 +245,14 @@ button {
 
 footer {
 	background-color: whitesmoke;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+    background-size: cover;
+    margin: 0px  20px;
+
 }
 
 .social-networks{
-	text-align: center;
+    text-align: center;
+    
 }
 
 .social-networks li {
