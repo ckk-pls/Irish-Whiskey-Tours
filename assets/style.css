@@ -7,6 +7,8 @@ body {font-family: 'Archivo Narrow', sans-serif;}
     flex-direction: column;
 }
 
+ /*Navbar Section */
+
 a.navbar-brand.nav-text  {
 	font-size: 160%;
  color: white;}
@@ -19,7 +21,7 @@ h4 {color: black;
  font-weight: 500;
     text-align: center;}
 
-
+ /*Header Image Section */
 .whiskey-image {
     height: 100vh;
     width: 100%;
@@ -85,9 +87,11 @@ h4 {color: black;
     background: #666;
     color: #c1e1e0;}
 
+ /*Button for Tours Section */
+
  #button {   
     display: flex;
-    font-size: 110%;
+    font-size: 140%;
     margin: auto;
     color: whitesmoke;
     background-color: black;
@@ -113,13 +117,15 @@ h4 {color: black;
     margin-bottom: 10px;
     text-align: center;
     justify-content:center;
-    font-size: 110%;
+    font-size: 140%;
     
 }
 
 #button:hover {
     background: #666;
     color: #c1e1e0;}
+
+ /*Tours Section */
 
 #Tours h1 {
     color: whitesmoke;
@@ -144,7 +150,8 @@ h4 {color: black;
     margin-bottom: 20px;
     border: 0;
 }
-.card h2 { text-align: center;
+.card h2 
+{ text-align: center;
 font-family: 'Archivo Narrow', sans-serif;
 color: rgb(224, 154, 48);
 animation: glow 2s ease-in-out infinite alternate;}
@@ -175,6 +182,7 @@ color: rgb(224, 154, 48);}
     padding-bottom: 5px;
     text-align: center;
 }
+/*Choices on map section*/
 
 .choices {
     background-color: rgb(224, 154, 48);
@@ -196,6 +204,8 @@ color: rgb(224, 154, 48);}
 #pick-dingle i, h3 {
     color: whitesmoke;
 }
+
+/*Contact Form Section */
 
 .form-container h2 {
     padding-top: 20px;
@@ -242,7 +252,7 @@ button {
     background: #666;
     color: #c1e1e0;}
 
-
+/*Footer Section */
 footer {
 	background-color: whitesmoke;
     background-size: cover;
