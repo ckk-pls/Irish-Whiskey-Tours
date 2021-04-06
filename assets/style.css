@@ -1,268 +1,290 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
-
-body {font-family: 'Archivo Narrow', sans-serif;}
-
-.site {
-    display: flex;
-    flex-direction: column;
+body {
+	font-family: 'Archivo Narrow', sans-serif;
 }
 
- /*Navbar Section */
+.site {
+	display: flex;
+	flex-direction: column;
+}
 
-a.navbar-brand.nav-text  {
+
+/*Navbar Section */
+
+a.navbar-brand.nav-text {
 	font-size: 160%;
- color: white;}
+	color: white;
+}
 
 a.nav-link.nav-text {
 	font-size: 100%;
- color:  rgb(224, 154, 48);}
+	color: rgb(224, 154, 48);
+}
 
-h4 {color: black;
- font-weight: 500;
-    text-align: center;}
+h4 {
+	color: black;
+	font-weight: 500;
+	text-align: center;
+}
 
- /*Header Image Section */
+
+/*Header Image Section */
+
 .whiskey-image {
-    height: 100vh;
-    width: 100%;
-    opacity: 0.9;
-    background-image: url(../images/whiskey-2.jpg);
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
+	height: 100vh;
+	width: 100%;
+	opacity: 0.9;
+	background-image: url(../images/whiskey-2.jpg);
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	align-items: center;
 }
 
 .whiskeyimage-info {
-    position: absolute;
-    top: 40%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    height: 40px;
-    border-radius: 12px;
-    background-color: black;
-    opacity: 1;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    color: rgb(224, 154, 48);
-    text-align: center;
-    margin-left: 7rem;
-
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	height: 40px;
+	border-radius: 12px;
+	background-color: black;
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	color: rgb(224, 154, 48);
+	text-align: center;
+	margin-left: 7rem;
 }
+
 .whiskeyimage-info p {
-
-    border-radius: 12px;
-    background-color: black;   
-    opacity: 0.8;
-    color: white;   
-    text-align: auto;
-    border-style: solid;
-    border-color: rgb(224, 154, 48); 
-    justify-content:center;
-
+	border-radius: 12px;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	text-align: auto;
+	border-style: solid;
+	border-color: rgb(224, 154, 48);
+	justify-content: center;
 }
 
 .whiskeyimage-info .Onebutton {
-    color: whitesmoke;
-    font-size: 110%;
-    background-color: black;
-    border:  rgb(224, 154, 48);
-    opacity: 1;
-    border-style: solid;
-    border-radius: 18px;
-    margin-top: 0.1px;
-    width: 160px;
-    padding: 10px;
+	color: whitesmoke;
+	font-size: 110%;
+	background-color: black;
+	border: rgb(224, 154, 48);
+	opacity: 1;
+	border-style: solid;
 	border-radius: 18px;
-    width: 160px;
-    margin: auto;
-    
+	margin-top: 0.1px;
+	width: 160px;
+	padding: 10px;
+	border-radius: 18px;
+	width: 160px;
+	margin: auto;
 }
+
 .whiskeyimage-info button:hover {
-    background: #666;
-    color: #c1e1e0;}
+	background: #666;
+	color: #c1e1e0;
+}
 
- /*Button for Tours Section */
 
- #button {   
-    display: flex;
-    font-size: 140%;
-    margin: auto;
-    color: whitesmoke;
-    background-color: black;
-    border:  rgb(224, 154, 48);
-    opacity: 1;
-    border-style: solid;
-    border-radius: 18px;
-    text-align: center;
-    width: 60%;
-    margin-bottom: 15px;
-    justify-content:center }
+/*Button for Tours Section */
 
-#dublin, #midleton, #dingle {   
-    display: flex;
-    margin: auto;
-    color: whitesmoke;
-    background-color: black;
-    border:  rgb(224, 154, 48);
-    opacity: 1;
-    border-style: solid;
+#button {
+	display: flex;
+	font-size: 140%;
+	margin: auto;
+	color: whitesmoke;
+	background-color: black;
+	border: rgb(224, 154, 48);
+	opacity: 1;
+	border-style: solid;
 	border-radius: 18px;
-    width: 60%;
-    margin-bottom: 10px;
-    text-align: center;
-    justify-content:center;
-    font-size: 140%;
-    
+	text-align: center;
+	width: 60%;
+	margin-bottom: 15px;
+	justify-content: center
+}
+
+#dublin,
+#midleton,
+#dingle {
+	display: flex;
+	margin: auto;
+	color: whitesmoke;
+	background-color: black;
+	border: rgb(224, 154, 48);
+	opacity: 1;
+	border-style: solid;
+	border-radius: 18px;
+	width: 60%;
+	margin-bottom: 10px;
+	text-align: center;
+	justify-content: center;
+	font-size: 140%;
 }
 
 #button:hover {
-    background: #666;
-    color: #c1e1e0;}
+	background: #666;
+	color: #c1e1e0;
+}
 
- /*Tours Section */
+
+/*Tours Section */
 
 #Tours h1 {
-    color: whitesmoke;
-    border:  rgb(224, 154, 48);
-    text-align: center;
-    border-radius: 12px;
-    background-color: black;
-    opacity: 0.7;
-    border-style: solid;
-    width: auto;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    animation: glow 2s ease-in-out infinite alternate;
+	color: whitesmoke;
+	border: rgb(224, 154, 48);
+	text-align: center;
+	border-radius: 12px;
+	background-color: black;
+	opacity: 0.7;
+	border-style: solid;
+	width: auto;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	animation: glow 2s ease-in-out infinite alternate;
 }
-
 
 .card {
-    background: black;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
-    border: 0;
+	background: black;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+	border: 0;
 }
-.card h2 
-{ text-align: center;
-font-family: 'Archivo Narrow', sans-serif;
-color: rgb(224, 154, 48);
-animation: glow 2s ease-in-out infinite alternate;}
+
+.card h2 {
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: rgb(224, 154, 48);
+	animation: glow 2s ease-in-out infinite alternate;
+}
 
 .card-img {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    object-fit: cover;
-    opacity: 0.5;}
+	width: 100%;
+	height: auto;
+	margin: 0;
+	object-fit: cover;
+	opacity: 0.5;
+}
 
 .tour-description {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 
-#jameson h2 { text-align: center;
-font-family: 'Archivo Narrow', sans-serif;
-color: rgb(224, 154, 48);}
+#jameson h2 {
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: rgb(224, 154, 48);
+}
 
 .tour-description p {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 70%;
-    font-size: 140%;
-    padding-bottom: 5px;
-    text-align: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 70%;
+	font-size: 140%;
+	padding-bottom: 5px;
+	text-align: center;
 }
+
+
 /*Choices on map section*/
 
 .choices {
-    background-color: rgb(224, 154, 48);
-    width: 100%;
-    min-height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-}
-#map {
-    min-height: 360px;}
-    
-.choices-items {
-    display: flex;
-    justify-content: center;
+	background-color: rgb(224, 154, 48);
+	width: 100%;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
 }
 
-#pick-dingle i, h3 {
-    color: whitesmoke;
+#map {
+	min-height: 360px;
 }
+
+.choices-items {
+	display: flex;
+	justify-content: center;
+}
+
+#pick-dingle i,
+h3 {
+	color: whitesmoke;
+}
+
 
 /*Contact Form Section */
 
 .form-container h2 {
-    padding-top: 20px;
-    color: whitesmoke;
-    text-align: center;
-    font-weight: bold ;
+	padding-top: 20px;
+	color: whitesmoke;
+	text-align: center;
+	font-weight: bold;
 }
-
 
 .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(224, 154, 48);;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(224, 154, 48);
+	;
 }
 
-.center-form{
-    width: 70%;
-    text-align: center;
-    flex-direction: column;
-   
+.center-form {
+	width: 70%;
+	text-align: center;
+	flex-direction: column;
 }
 
 form input {
-    margin-top: 10px;
-    margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 button {
-    color:whitesmoke;
-    background-color: black;
-    border-color: whitesmoke;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+	color: whitesmoke;
+	background-color: black;
+	border-color: whitesmoke;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .center-form button {
-    width: 40%;
-    flex-direction: auto;
+	width: 40%;
+	flex-direction: auto;
 }
 
 .center-form button:hover {
-    background: #666;
-    color: #c1e1e0;}
-
-/*Footer Section */
-footer {
-	background-color: whitesmoke;
-    background-size: cover;
-    margin: 0px  20px;
-
+	background: #666;
+	color: #c1e1e0;
 }
 
-.social-networks{
-    text-align: center;
-    
+
+/*Footer Section */
+
+footer {
+	background-color: whitesmoke;
+	background-size: cover;
+	margin: 0px 20px;
+}
+
+.social-networks {
+	text-align: center;
 }
 
 .social-networks li {
@@ -277,11 +299,13 @@ footer {
 	color: rgb(224, 154, 48)
 }
 
-}
- @keyframes glow {
-    from {
-      text-shadow: 0 0 20px #d35a14;
-    }
-    to {
-      text-shadow: 0 0 30px #9e7d0f, 0 0 10px #a36d09;}
 
+}
+@keyframes glow {
+	from {
+		text-shadow: 0 0 20px #d35a14;
+	}
+	
+	to {
+		text-shadow: 0 0 30px #9e7d0f, 0 0 10px #a36d09;
+	}
