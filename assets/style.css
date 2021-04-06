@@ -136,6 +136,11 @@ h4 {
 	color: #c1e1e0;
 }
 
+#button:hover ,#dublin{
+	background: #666;
+	color: #c1e1e0;
+}
+
 
 /*Tours Section */
 
@@ -279,7 +284,6 @@ button {
 
 footer {
 	background-color: whitesmoke;
-	background-size: cover;
 	margin: 0px 20px;
 }
 
@@ -295,17 +299,14 @@ footer {
 	background-color: whitesmoke;
 	font-size: 180%;
 	margin: 1%;
-	padding: 5%;
 	color: rgb(224, 154, 48)
 }
 
 
-}
 @keyframes glow {
 	from {
 		text-shadow: 0 0 20px #d35a14;
 	}
 	
 	to {
-		text-shadow: 0 0 30px #9e7d0f, 0 0 10px #a36d09;
-	}
+		text-shadow: 0 0 30px #9e7d0f, 0 0 10px #a36d09;}
