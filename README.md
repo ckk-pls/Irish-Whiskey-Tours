@@ -25,7 +25,6 @@ This is a website for people to see whiskey tours in certain places in Ireland -
     * Be aware that there are different locations for the tours. 
     * Press the buttons to land on booking pages for tours.
     * Use the map to see other amenities in the area the tour is taking place. 
-    * See what previous clients thought about Studio 50.
     * Fill out the contact form on the website page. 
     * Be able to follow the link to Irish Whiskey Tours' socials.
 
@@ -41,3 +40,36 @@ picture is of the outside / inside of the building where the tour takes place.
 
 
 * **Wireframe**: [Irish Whiskey Tours - wireframe.pdf](https://github.com/ckk-pls/Irish-Whiskey-Tours/files/6265276/Irish.Whiskey.Tours.-.wireframe.pdf)
+
+# Features 
+## Existing Features 
+ * **Header** : The header links to the map. The navbar also collapses accordingly
+ to the device the website is being viewed on. 
+ * **Jumbotron**: The jumbotron is an image from a whiskey distillery. The jumbtron image reacts accordingly to the device
+ it is being viewed on. 
+ * **Tour 1**: This section sets out about the tour and lets you book throught button 1. It also lets you press button 2 to see other amenities in the area. 
+ * **Tour 2**: This section sets out about the tour and lets you book throught button 1. It also lets you press button 2 to see other amenities in the area. 
+ * **Tour 3**: This section sets out about the tour and lets you book throught button 1. It also lets you press button 2 to see other amenities in the area.  
+ * **Map**: This allows users of the site to see the location of the tours in Ireland and see amenities close to tours. 
+ * **Footer**: The footer section has external links to Irish Whiskey Tours social media pages. 
+
+## Future Features 
+I would like to include:
+* The ability to buy Irish Whiskey Tours merchandise.
+* The ability to book the tour directly from the website.
+
+# Technology Used 
+## Languages 
+* HTML5
+* CSS3
+* Bootstrap 
+* Javascript 
+* APIs
+
+# Frameworks and programs uses
+* [**Bootsrap v4.5**](https://getbootstrap.com/): Used for layout and positioning of elements and navigation bar. 
+* [**Font Awesome**](https://fontawesome.com/): Used icons for the map section and footer. 
+* [**Google Fonts**](https://fonts.google.com/): Used for importing fonts. 
+* [**Git, GitPod and GitHub**](https://github.com/): Used for version control and hosting page.
+* [**Google Map API**](https://developers.google.com/maps): Used for map section.
+* [**Email JS**](https://www.emailjs.com/): Used for email section. 
