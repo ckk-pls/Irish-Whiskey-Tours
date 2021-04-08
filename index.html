@@ -1,170 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" type="text/css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-      <link rel="stylesheet" href="assets/style.css">
-      <title>Irish Whiskey Tours</title>
-   </head>
-   <body class="site">
-      <div class="container-fluid" id="home">
-         <div class="row">
-            <!--Navbar-->
-            <div class="whiskey-image">
-               <nav class="navbar navbar-expand-lg navbar-dark">
-                  <a class="navbar-brand nav-text" href="#" >Irish Whiskey Tours</a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavinfo" aria-controls="navbarNavinfo" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavinfo">
-                     <ul class="navbar-nav mr-auto">
-                        <li class="active nav-item mr-2">
-                           <a class="nav-link nav-text" href="#Tours">Tours</a>
-                        </li>
-                        <li class="active nav-item mr-2">
-                           <a class="nav-link nav-text" href="#map">See Location of Tours</a>
-                        </li>
-                        <li class="active nav-item mr-2">
-                           <a class="nav-link nav-text" href="#contact">Contact</a>
-                        </li>
-                     </ul>
-                  </div>
-               </nav>
-               <!--Image-->
-               <div class="whiskeyimage-info">
-                  <h2>Irish Whiskey Tours</h2>
-                  <p>
-                     Irish whiskey is experiencing an astonishingly strong renaissance around the world. 
-                     From just four distilleries in 2013, there are now 18 distilleries in Ireland with many more planned. 
-                     Experience these sites today and immerse youserlf in the history of Irish whiskey. 
-                  </p>
-                  <button onclick="window.location.href='#map'" type="button" class="Onebutton" >Click here to see tour locations</button>
-               </div>
-            </div>
-         </div>
-         <!--Tours-->
-         <section id="Tours" class= "Toursbackground">
-            <h1>Ireland's Best Distillery Tours</h1>
-            <div>
-               <!--Tour1-->
-               <div class="row no-gutters">
-                  <a  class="card" id="RoeCo-info">
-                     <img src="./images/RoeCo.jpg" class="card-img" />
-                     <h2>Roe&Co Distillery - Dublin</h2>
-                  </a>
-                  <div class="tour-description">
-                     <p>
-                        Located in Dublin’s City Centre, just 15 minutes from St. Stephen’s Green, The Teeling Distillery is perfectly located to visit while enjoying a staycation in Dublin, or a day out exploring with friends and family.  
-                     </p>
-                  </div>
-                  <div class="row no-gutters col-12 "> <a type="button" id="button" href="https://visit.roeandcowhiskey.com/content" target="_blank"> Book this tour here</a> 
-                     <button type="button" id="dublin"> See other amenities in Dublin here </button>
-                  </div>
-               </div>
-            </div>
-            <!--Tour2-->
-            <div class="row no-gutters">
-               <div>
-                  <a class="card" id="jameson-info">
-                     <img src="./images/jameson-cork.jpg"  class="card-img" />
-                     <h2>Jameson Distillery Midleton - Cork</h2>
-                  </a>
-                  <div class="tour-description">
-                     <p>
-                        Follow in the footsteps of the founding fathers of Jameson. 
-                        A Jameson ambassador will guide you for a serving of heritage and history on the definitive Jameson tour experience - stories, craic, a comparative whiskey tasting and of course, a Jameson drink in the exact spot where it all began.  
-                     </p>
-                  </div>
-                  <div  class="row no-gutters col-12"> 
-                     <a type="button" id="button" href="https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-midleton" target="_blank"> Book this tour here</a> 
-                     <button type="button" id="midleton">See other amenities in Cork here </button>
-                  </div>
-               </div>
-               <!--Tour3-->
-               <div class="row no-gutters">
-                  <a  class="card" id="Dingle-info">
-                     <img src="./images/dingle.jpg"  class="card-img" />
-                     <h2>Dingle Distillery - Kerry</h2>
-                  </a>
-                  <div class="tour-description">
-                     <p>
-                        The Dingle Distillery welcomes visitors to enjoy a tour of our facility where the entire production process, for all our products, are explained and a gin/vodka sample is provided. 
-                        Our distillery tour will give you an introduction into Irish whiskey and into the Dingle Distillery. 
-                     </p>
-                  </div>
-                  <div  class="row no-gutters col-12">  <a type="button" id="button" href="https://dingledistillery.ie/tours/" target="_blank"> Book this tour here</a> 
-                     <button type="button" id="dingle">See other amenities in Kerry here </button>
-                  </div>
-               </div>
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Irish Whiskey Tours</title>
+</head>
+<body class="site">
+  <div class="container-fluid" id="home">
+    <div class="row">
+      <!--Navbar-->
+      <div class="whiskey-image">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand nav-text" href="#">Irish Whiskey Tours</a>
+          <div class="collapse navbar-collapse" id="navbarNavinfo">
+            <ul class="navbar-nav mr-auto">
+              <li class="active nav-item mr-2">
+                <a class="nav-link nav-text" href="#Tours">Tours</a>
+              </li>
+              <li class="active nav-item mr-2">
+                <a class="nav-link nav-text" href="#map">See Location of Tours</a>
+              </li>
+              <li class="active nav-item mr-2">
+                <a class="nav-link nav-text" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav><!--Image-->
+        <div class="whiskeyimage-info">
+          <h2>Irish Whiskey Tours</h2>
+          <p>Irish whiskey is experiencing an astonishingly strong renaissance around the world. From just four distilleries in 2013, there are now 18 distilleries in Ireland with many more planned. Experience these sites today and immerse youserlf in the history of Irish whiskey.</p><button onclick="window.location.href='#map'" type="button" class="Onebutton">Click here to see tour locations</button>
+        </div>
       </div>
-      </section>
-      <!--Amenities in the area---> 
-      <section class="choices row no-gutters" id="pick-dingle">
-         <div class="col-lg-2 col-4 grow">
-            <a href="#restaurant" id="restaurant" class="choices-items restaurant">
-               <i class="fas fa-utensils fa-2x"></i>
-               <h3>Restaurants</h3>
-            </a>
-         </div>
-         <div class="col-lg-2 col-4 grow">
-            <a href="#cafes" id="cafes" class="choices-items cafes">
-               <i class="fas fa-mug-hot fa-2x"></i>
-               <h3>Cafes</h3>
-            </a>
-         </div>
-         <div class="col-lg-2 col-4 grow">
-            <a href="#hotels" id="hotels" class="choices-items hotels">
-               <i class="fas fa-concierge-bell fa-2x"> </i>
-               <h3>Hotels</h3>
-            </a>
-         </div>
-      </section>
-      <!--Map---> 
-      <div id="map">
+    </div><!--Tours-->
+    <section id="Tours" class="Toursbackground">
+      <h1>Ireland's Best Distillery Tours</h1>
+      <div>
+        <!--Tour1-->
+        <div class="row no-gutters">
+          <a class="card" id="RoeCo-info"><img src="./images/RoeCo.jpg" class="card-img" alt="RoeCo">
+          <h2>Roe&amp;Co Distillery - Dublin</h2></a>
+          <div class="tour-description">
+            <p>Located in Dublin’s City Centre, just 15 minutes from St. Stephen’s Green, The Teeling Distillery is perfectly located to visit while enjoying a staycation in Dublin, or a day out exploring with friends and family.</p>
+          </div>
+          <div class="row no-gutters col-12">
+            <a type="button" id="button" href="https://visit.roeandcowhiskey.com/content" target="_blank">Book this tour here</a> <button type="button" id="dublin">See other amenities in Dublin here</button>
+          </div>
+        </div>
+      </div><!--Tour2-->
+      <div class="row no-gutters">
+        <div>
+          <a class="card" id="jameson-info"><img src="./images/jameson-cork.jpg" class="card-img" alt="jameson-cork">
+          <h2>Jameson Distillery Midleton - Cork</h2></a>
+          <div class="tour-description">
+            <p>Follow in the footsteps of the founding fathers of Jameson. A Jameson ambassador will guide you for a serving of heritage and history on the definitive Jameson tour experience - stories, craic, a comparative whiskey tasting and of course, a Jameson drink in the exact spot where it all began.</p>
+          </div>
+          <div class="row no-gutters col-12">
+            <a type="button" id="button" href="https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-midleton" target="_blank">Book this tour here</a> <button type="button" id="midleton">See other amenities in Cork here</button>
+          </div>
+        </div><!--Tour3-->
+        <div class="row no-gutters">
+          <a class="card" id="Dingle-info"><img src="./images/dingle.jpg" class="card-img" alt="dingle">
+          <h2>Dingle Distillery - Kerry</h2></a>
+          <div class="tour-description">
+            <p>The Dingle Distillery welcomes visitors to enjoy a tour of our facility where the entire production process, for all our products, are explained and a gin/vodka sample is provided. Our distillery tour will give you an introduction into Irish whiskey and into the Dingle Distillery.</p>
+          </div>
+          <div class="row no-gutters col-12">
+            <a type="button" id="button" href="https://dingledistillery.ie/tours/" target="_blank">Book this tour here</a> <button type="button" id="dingle">See other amenities in Kerry here</button>
+          </div>
+        </div>
       </div>
-      <!--Contact Form-->
-      <section id="contact">
-         <div class="col-12 form-container">
-            <div>
-               <h2>Contact Us</h2>
-            </div>
-            <form id="contactForm" onsubmit="return sendMail(this);">
-            <div class="center-form"> 
-               <input type="text" name="name" class="form-control" id="name" placeholder="Insert your full name" required/>
-               <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Insert your email address" required/>
-               <textarea rows="5" name="querysummary" class="form-control" id="querysummary" placeholder="Enter your query" required></textarea>
-               <button type="submit" id="form-button">Send to one of the team</button>
-            </div>
-            </form>
-         </div>
-      </section>
-      <!--Footer-->
-      <footer>
-         <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-         </ul>
-      </footer>
-      <script></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5dEd_4wQARyCTN_FvAt7AgRNufdeMnjY&libraries=places&callback=initMap"></script>
-      <script src="assets/map.js"> </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-(function() {
-emailjs.init("user_KrzPgGqdhi161dA1QbObw");
-})();
-</script>
-<script src="assets/sendEmail.js"> </script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-   </body>
+    </section>
+  </div><!--Amenities in the area=-->
+  <section class="choices row no-gutters" id="pick-dingle">
+    <div class="col-lg-2 col-4 grow">
+      <a href="#restaurant" id="restaurant" class="choices-items restaurant">
+      <h3>Restaurants</h3></a>
+    </div>
+    <div class="col-lg-2 col-4 grow">
+      <a href="#cafes" id="cafes" class="choices-items cafes">
+      <h3>Cafes</h3></a>
+    </div>
+    <div class="col-lg-2 col-4 grow">
+      <a href="#hotels" id="hotels" class="choices-items hotels">
+      <h3>Hotels</h3></a>
+    </div>
+  </section><!--Map=-->
+  <div id="map"></div><!--Contact Form-->
+  <section id="contact">
+    <div class="col-12 form-container">
+      <div>
+        <h2>Contact Us</h2>
+      </div>
+      <form id="contactForm" onsubmit="return sendMail(this);" name="contactForm">
+        <div class="center-form">
+          <input type="text" name="name" class="form-control" id="name" placeholder="Insert your full name"> <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Insert your email address"> 
+          <textarea rows="5" name="querysummary" class="form-control" id="querysummary" placeholder="Enter your query" required=""></textarea> <button type="submit" id="form-button">Send to one of the team</button>
+        </div>
+      </form>
+    </div>
+  </section><!--Footer-->
+  <footer>
+    <ul class="social-networks">
+      <li>
+        <a href="https://www.facebook.com" target="_blank"></a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com" target="_blank"></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com" target="_blank"></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com" target="_blank"></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script> 
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5dEd_4wQARyCTN_FvAt7AgRNufdeMnjY&amp;libraries=places&amp;callback=initMap"></script> 
+  <script src="assets/map.js"></script> 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script> 
+  <script type="text/javascript">
+
+
+  (function() {
+  emailjs.init("user_KrzPgGqdhi161dA1QbObw");
+  })();
+  </script> 
+  <script src="assets/sendEmail.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
