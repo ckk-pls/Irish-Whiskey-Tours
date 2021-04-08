@@ -73,3 +73,32 @@ I would like to include:
 * [**Git, GitPod and GitHub**](https://github.com/): Used for version control and hosting page.
 * [**Google Map API**](https://developers.google.com/maps): Used for map section.
 * [**Email JS**](https://www.emailjs.com/): Used for email section. 
+
+# Testing 
+## Functionality Testing 
+* **Header**: All page links bring you to the correct
+section when clicked. On mobile devices the navbar collapses. 
+All page links work when navbar is collapsed. 
+
+* **Footer**: The footer contains four social media links. Each one links to an external page in a new tab. 
+This was also tested on mobile.
+
+* **Buttons**: The buttons bring you to the map when clicked and also to the website tour when clicked. This was tested on desktop and mobile devices. Error messages also 
+appear when the "sign up" form is not completed correctly. 
+
+## Testing User Stories 
+ **Website user**
+* On the landing page a gym user sees the name of the webpage and some information on Irish Whiskey.
+* The user can then easily scroll down and see extra information.
+* They see the certain distillery tours.
+* They can read about the each specific tour.
+* Then they can click to book the tour or see other amenities in the area.
+* They can click on each of the logos to get the amenities in the area. 
+* They can see the locations on the map.
+* They can use the contact form to contact the Irish Whiskey Tours with any query. 
+
+**Returning Website User**
+* A returning website user can use the nav bar to link to information
+they might want to see. 
+* A returning website user can click on the map, see different amenities and in various locations.  
+
