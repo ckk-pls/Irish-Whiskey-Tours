@@ -87,8 +87,12 @@ This was also tested on mobile.
 appear when the "sign up" form is not completed correctly. 
 
 * **Map**: I tested all the icons and buttons that link the webpage to the map. I tested each icon in each other to check that 
-each amenity came up in each particualr area. I done this as I intergrated each area as part of the code. I also tested each 
-location to make sure it should up when the button was pressed. 
+each amenity came up in each particualr area. I done this as I intergrated each new area as part of the code. I also tested each 
+location to make sure it should up when the button was pressed.
+
+* **Email JS**: I tested the email contact form as I was writing the code. I tested in the console and tested many times
+by sending contact messages from the webpage to the linked emial address. 
+
 
 ## Testing User Stories 
  **Website user**
