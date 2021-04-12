@@ -91,7 +91,6 @@ function callback(results, status) {
         clearMarkers();
         console.log(results.length);
         for (var i = 0; i < results.length; i++) {
-            // markers.push(results[i]);
             createMarker(results[i]);
         }
     }
@@ -104,10 +103,10 @@ function createMarker(place) {
         position: place.geometry.location,
         title: place.name,
     });
-    // Code to set infowindow was found at https://developers.google.com/maps/documentation/javascript/infowindows
+   
     let infowindow = new google.maps.InfoWindow();
     google.maps.event.addListener(marker, "click", function () {
-        //Code to remove last info window was found at https://hashnode.com/post/google-maps-api-onclick-on-marker-close-infowindow-of-other-markers-ciou68dw708x33353les71nyi
+       
         if (lastinfowindow) lastinfowindow.close();
         infowindow.setContent(place.name);
 
@@ -118,11 +117,9 @@ function createMarker(place) {
     markers.push(marker);
 }
 
-//Code to remove markers from map was found at https://developers.google.com/maps/documentation/javascript/examples/marker-remove
 function clearMarkers() {
     for (let i = 0; i < markers.length; i++) {
         if (markers[i]) {
-            // console.log(markers[i].title);
             markers[i].setMap(null);
         }
     }
