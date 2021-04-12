@@ -116,7 +116,7 @@ function createMarker(place) {
     console.log(marker.title);
     markers.push(marker);
 }
-
+// Function to clear markers
 function clearMarkers() {
     for (let i = 0; i < markers.length; i++) {
         if (markers[i]) {

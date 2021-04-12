@@ -12,12 +12,12 @@ body {
 /*Navbar Section */
 
 a.navbar-brand.nav-text {
-	font-size: 160%;
+	font-size: 220%;
 	color: white;
 }
 
 a.nav-link.nav-text {
-	font-size: 100%;
+	font-size: 170%;
 	color: rgb(224, 154, 48);
 }
 
@@ -97,7 +97,7 @@ h4 {
 
 /*Button for Tours Section */
 
-#button {
+.button {
 	display: flex;
 	font-size: 140%;
 	margin: auto;
@@ -221,7 +221,7 @@ a:hover {
 }
 
 #map {
-	min-height: 360px;
+    min-height: 600px;
 }
 
 .choices a:-webkit-any-link {

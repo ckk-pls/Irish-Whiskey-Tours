@@ -86,6 +86,10 @@ This was also tested on mobile.
 * **Buttons**: The buttons bring you to the map when clicked and also to the website tour when clicked. This was tested on desktop and mobile devices. Error messages also 
 appear when the "sign up" form is not completed correctly. 
 
+* **Map**: I tested all the icons and buttons that link the webpage to the map. I tested each icon in each other to check that 
+each amenity came up in each particualr area. I done this as I intergrated each area as part of the code. I also tested each 
+location to make sure it should up when the button was pressed. 
+
 ## Testing User Stories 
  **Website user**
 * On the landing page a user sees the name of the webpage and some information on Irish Whiskey.
