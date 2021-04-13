@@ -38,7 +38,7 @@ function newLocation(newLat, newLng) {
     map.setZoom(14);
 }
 
-//Setting Location with jQuery
+//Setting amenities with jQuery
 $(document).ready(function () {
     $("#dublin").click(function () {
         clearMarkers();
@@ -74,7 +74,7 @@ $(document).ready(function () {
     });
 });
 
-
+// Function to create markerscwhen icon is clicked
 
 function displayLocationsOfType(locationTypes){
     var request = {
