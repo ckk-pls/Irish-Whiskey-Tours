@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let map;
 let markers = [];
 let lastinfowindow = null;
@@ -34,7 +35,7 @@ function newLocation(newLat, newLng) {
         lat: newLat,
         lng: newLng,
     });
-    map.setZoom(14)
+    map.setZoom(14);
 }
 
 //Setting Location with jQuery
@@ -60,7 +61,7 @@ $(document).ready(function () {
     $("#restaurant").click(function() {
         clearMarkers();
        displayLocationsOfType(["restaurant"]);
-    })
+    });
 
       $("#cafes").click(function () {
         clearMarkers();

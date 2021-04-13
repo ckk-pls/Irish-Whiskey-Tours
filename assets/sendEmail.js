@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 function sendMail(contactForm) {
     emailjs.send("service_z8cgpej","template_55aqf9b", {
         "from_name": contactForm.name.value,
