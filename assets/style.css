@@ -67,7 +67,6 @@ h4 {
 	background-color: black;
 	opacity: 0.8;
 	color: white;
-	text-align: auto;
 	border-style: solid;
 	border-color: rgb(224, 154, 48);
 	justify-content: center;
@@ -277,7 +276,6 @@ button {
 
 .center-form button {
 	width: 40%;
-	flex-direction: auto;
 }
 
 .center-form button:hover {
