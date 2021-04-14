@@ -129,17 +129,19 @@ I was missing a } in respect of some of the JS code.
 
 * Mobile:
 
-![Lighthouse - mobile](https://user-images.githubusercontent.com/73709934/105905304-30424e00-601a-11eb-93a5-5abf2fc38d34.JPG)
+![Lighthouse - IWT - mobile](https://user-images.githubusercontent.com/73709934/114748724-188d8280-9d4a-11eb-9557-8d66d12a5d75.JPG)
 
 * Website: 
 
-![Lighthouse - website](https://user-images.githubusercontent.com/73709934/106394942-66574780-63f7-11eb-9dac-4de796ab1296.JPG)
+![Lighthouse IWT - desktop](https://user-images.githubusercontent.com/73709934/114748587-fb58b400-9d49-11eb-9700-40881f29a8ed.JPG))
 
 * Validator Results:
 
 * [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fckk-pls.github.io%2FStudio-50-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - CSS validator results 
 
-* [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fckk-pls.github.io%2FStudio-50-2%2F) - HTML validator results 
+* [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fckk-pls.github.io%2FIrish-Whiskey-Tours%2F) - HTML validator results 
+
+* [JS] - I ran the my JS through JS query and it returned no errors. 
 
 * **Other Testing**
 
