@@ -67,6 +67,7 @@ h4 {
 	background-color: black;
 	opacity: 0.8;
 	color: white;
+	text-align: auto;
 	border-style: solid;
 	border-color: rgb(224, 154, 48);
 	justify-content: center;
@@ -130,7 +131,7 @@ h4 {
 	font-size: 140%;
 }
 
-#button:hover {
+.button:hover {
 	background: #666;
 	color: #c1e1e0;
 }
@@ -275,7 +276,9 @@ button {
 }
 
 .center-form button {
-	width: 40%;}
+	width: 40%;
+	flex-direction: auto;
+}
 
 .center-form button:hover {
 	background: #666;
@@ -312,5 +315,4 @@ footer {
 	}
 	
 	to {
-        text-shadow: 0 0 30px #9e7d0f, 0 0 10px #a36d09;
-    }
+		text-shadow: 0 0 30px #9e7d0f, 0 0 10px #a36d09;}
