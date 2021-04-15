@@ -137,11 +137,11 @@ I was missing a } in respect of some of the JS code.
 
 * Validator Results:
 
-* [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fckk-pls.github.io%2FStudio-50-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - CSS validator results 
+* [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fckk-pls.github.io%2FIrish-Whiskey-Tours%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - CSS validator results 
 
 * [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fckk-pls.github.io%2FIrish-Whiskey-Tours%2F) - HTML validator results 
 
-* [JS] - I ran the my JS through JS query and it returned no errors. 
+* JS - I ran the my JS through JS query and it returned no errors. 
 
 * **Other Testing**
 
@@ -195,4 +195,4 @@ I was missing a } in respect of some of the JS code.
 # Acknowledgements
 * My Mentor for continuous helpful feedback.
 
-* Tutor support at Code Institute for their support.
+* Tutor support at Code Institute for their great support.
