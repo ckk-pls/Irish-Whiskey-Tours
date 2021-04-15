@@ -17,11 +17,11 @@ This is a website for people to see whiskey tours in certain places in Ireland -
     * To see the location of the tours on the map.
     * To see the location of other amenities in the area on the map. 
     * Fill out the contact form on the website page. 
-    * To be able to see the and open the social media links. 
+    * To be able to see and open the social media links. 
 
 * As the Irish Whiskey website owner I want user to: 
     * See the landing page and know that they are looking at Irish Whiskey Tours.
-    * Get a strong sense of the what the website does.
+    * Get a strong sense of what the website does.
     * Be aware that there are different locations for the tours. 
     * Press the buttons to land on booking pages for tours.
     * Use the map to see other amenities in the area the tour is taking place. 
@@ -35,7 +35,7 @@ This is a website for people to see whiskey tours in certain places in Ireland -
 * **Typography**: The font is Archivo Narrow with sans-serif. I used this 
 font as it is easy to read. 
 
-* **Imagery**: The imagery used is realated to Whiskey. For the landing page the picture is of whiskey barrels. For the tours, the
+* **Imagery**: The imagery used is related to Whiskey. For the landing page the picture is of whiskey barrels. For the tours, the
 picture is of the outside / inside of the building where the tour takes place.
 
 
@@ -47,9 +47,9 @@ picture is of the outside / inside of the building where the tour takes place.
  to the device the website is being viewed on. 
  * **Jumbotron**: The jumbotron is an image from a whiskey distillery. The jumbtron image reacts accordingly to the device
  it is being viewed on. 
- * **Tour 1**: This section sets out about the tour and lets you book throught button 1. It also lets you press button 2 to see other amenities in the area. 
- * **Tour 2**: This section sets out about the tour and lets you book throught button 1. It also lets you press button 2 to see other amenities in the area. 
- * **Tour 3**: This section sets out about the tour and lets you book throught button 1. It also lets you press button 2 to see other amenities in the area.  
+ * **Tour 1**: This section sets out about the tour and lets you book through button 1. It also lets you press button 2 to see other amenities in the area. 
+ * **Tour 2**: This section sets out about the tour and lets you book through button 1. It also lets you press button 2 to see other amenities in the area. 
+ * **Tour 3**: This section sets out about the tour and lets you book through button 1. It also lets you press button 2 to see other amenities in the area.  
  * **Map**: This allows users of the site to see the location of the tours in Ireland and see amenities close to tours. 
  * **Footer**: The footer section has external links to Irish Whiskey Tours social media pages. 
 
@@ -87,19 +87,19 @@ This was also tested on mobile.
 appear when the "sign up" form is not completed correctly. 
 
 * **Map**: I tested all the icons and buttons that link the webpage to the map. I tested each icon in each other to check that 
-each amenity came up in each particualr area. I done this as I intergrated each new area as part of the code. I also tested each 
-location to make sure it should up when the button was pressed.
+each amenity came up in each particular area. I done this as I integrated each new area as part of the code. I also tested each 
+location to make sure it show up when the button was pressed.
 
 * **Email JS**: I tested the email contact form as I was writing the code. I tested in the console and tested many times
-by sending contact messages from the webpage to the linked emial address. 
+by sending contact messages from the webpage to the linked email address. 
 
 
 ## Testing User Stories 
  **Website user**
 * On the landing page a user sees the name of the webpage and some information on Irish Whiskey.
 * The user can then easily scroll down and see extra information.
-* They see the certain distillery tours.
-* They can read about the each specific tour.
+* They see the different distillery tours.
+* They can read about each specific tour.
 * Then they can click to book the tour or see other amenities in the area.
 * They can click on each of the logos to get the amenities in the area. 
 * They can see the locations on the map.
@@ -119,7 +119,7 @@ emails to the registered email js address.
 * In addition to the above bug, I also tested the email js extensively with using the "console log" method to check everything 
 worked as it should. 
 
-* I had a bug in relation to the rendering the map so the other amenities in the tour area would show up. After some research, I relaised that 
+* I had a bug in relation to rendering the map so the other amenities in the tour area would show up. After some research, I relaised that 
 I was missing a } in respect of some of the JS code. 
 
 * I had a bug in relation to setting the button to hover. After contacting tutor support, I realised that I had set it incorrectly in my css. 
